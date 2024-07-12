@@ -1,4 +1,4 @@
-vless://64fb374f-c3d9-4305-9eb1-0f589fda395c@205.233.181.213:8443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=rahimzade.zvjmxrgs3867.workers.dev&fp=random&type=ws&sni=rahimzade.zvjmxrgs3867.workers.dev#V2ray+Clean+IP+2
-vless://64fb374f-c3d9-4305-9eb1-0f589fda395c@130.250.137.73:8443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=rahimzade.zvjmxrgs3867.workers.dev&fp=random&type=ws&sni=rahimzade.zvjmxrgs3867.workers.dev#V2ray+Clean+IP+1
-vless://64fb374f-c3d9-4305-9eb1-0f589fda395c@www.visa.com.sg:8443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=rahimzade.zvjmxrgs3867.workers.dev&fp=random&type=ws&sni=rahimzade.zvjmxrgs3867.workers.dev#V2ray+Clean+IP
-vless://64fb374f-c3d9-4305-9eb1-0f589fda395c@www.visa.com.sg:8880?path=%2F%3Fed%3D2560&security=none&encryption=none&host=rahimzade.zvjmxrgs3867.workers.dev&type=ws#V2ray+Clean+IP+3
+vless://195c3375-a3f4-4ae3-b0a5-556eba8fcf43@rz.zvjmxrgs3867.workers.dev:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=rz.zvjmxrgs3867.workers.dev&fp=randomized&type=ws&sni=rz.zvjmxrgs3867.workers.dev#4
+vless://195c3375-a3f4-4ae3-b0a5-556eba8fcf43@104.27.112.49:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=rz.zvjmxrgs3867.workers.dev&fp=randomized&type=ws&sni=rz.zvjmxrgs3867.workers.dev#3
+vless://195c3375-a3f4-4ae3-b0a5-556eba8fcf43@130.250.137.73:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=rz.zvjmxrgs3867.workers.dev&fp=randomized&type=ws&sni=rz.zvjmxrgs3867.workers.dev#2
+vless://195c3375-a3f4-4ae3-b0a5-556eba8fcf43@205.233.181.213:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=rz.zvjmxrgs3867.workers.dev&fp=randomized&type=ws&sni=rz.zvjmxrgs3867.workers.dev#1
