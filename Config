@@ -2,3 +2,4 @@ vless://195c3375-a3f4-4ae3-b0a5-556eba8fcf43@rz.zvjmxrgs3867.workers.dev:443?pat
 vless://195c3375-a3f4-4ae3-b0a5-556eba8fcf43@104.27.112.49:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=rz.zvjmxrgs3867.workers.dev&fp=randomized&type=ws&sni=rz.zvjmxrgs3867.workers.dev#3
 vless://195c3375-a3f4-4ae3-b0a5-556eba8fcf43@130.250.137.73:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=rz.zvjmxrgs3867.workers.dev&fp=randomized&type=ws&sni=rz.zvjmxrgs3867.workers.dev#2
 vless://195c3375-a3f4-4ae3-b0a5-556eba8fcf43@205.233.181.213:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=rz.zvjmxrgs3867.workers.dev&fp=randomized&type=ws&sni=rz.zvjmxrgs3867.workers.dev#1
+vless://aa30fa06-87aa-49a8-8799-7a3f7f5e58c5@162.159.153.19:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=edge.zvjmxrgs3867.workers.dev&type=ws#edge+worker+5
