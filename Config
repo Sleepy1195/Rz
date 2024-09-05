@@ -1,5 +1,5 @@
 {
-  "remarks": "⨵ Frɑgϻϵͷ₺-V2ray",
+  "remarks": "⨵ Frɑgϻϵͷ₺ V2ray",
   "log": {
     "loglevel": "warning"
   },
@@ -53,12 +53,12 @@
         "vnext": [
           {
             "address": "206.238.237.208",
-            "port": 443,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "aa30fa06-87aa-49a8-8799-7a3f7f5e58c5",
+                "id": "4c069ce6-63ca-48ad-ba4d-27828cf69cf4",
                 "level": 8,
                 "security": "auto"
               }
@@ -81,13 +81,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "edge.zvjmxrgs3867.workers.dev"
+          "serverName": "yonG.Vgv.woRkERS.DeV"
         },
         "wsSettings": {
           "headers": {
-            "Host": "edge.zvjmxrgs3867.workers.dev"
+            "Host": "yonG.Vgv.woRkERS.DeV"
           },
-          "path": "/NiREvilB25bFe58d2W63kPGE7eSlvadvnI9361wng2S4e9qPX1h?ed=2560"
+          "path": "/NiREvilXKWP3A5a1T3gG4WqNnI9YggT3pQEN95jky2mUsmHa5ob?ed=2560"
         }
       },
       "tag": "proxy"
@@ -97,8 +97,8 @@
       "protocol": "freedom",
       "settings": {
         "fragment": {
-          "packets": "5",
-          "length": "30",
+          "packets": "1-1",
+          "length": "1403",
           "interval": "1"
         }
       },
