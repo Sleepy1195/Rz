@@ -52,7 +52,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "152.70.186.201",
+            "address": "104.17.197.29",
             "port": 443,
             "users": [
               {
@@ -100,9 +100,9 @@
       "settings": {
         "domainStrategy": "AsIs",
         "fragment": {
-          "packets": "tlshello",
-          "length": "10-20",
-          "interval": "10-20"
+          "packets": "1-1",
+          "length": "1403",
+          "interval": "1"
         }
       },
       "streamSettings": {
