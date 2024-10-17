@@ -72,7 +72,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "yong.wonewoy658.workers.dev",
+          "serverName": "yong1.wonewoy658.workers.dev",
           "alpn": [
             "h2",
             "http/1.1"
@@ -83,7 +83,7 @@
         "wsSettings": {
           "path": "/?ed=2560",
           "headers": {
-            "Host": "yong.wonewoy658.workers.dev"
+            "Host": "yong1.wonewoy658.workers.dev"
           }
         },
         "sockopt": {
