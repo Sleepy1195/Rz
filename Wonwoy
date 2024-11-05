@@ -1,67 +1,66 @@
 {
-  "remarks": "Fragment V2ray",
+  "remarks": "⨵ Frɑgϻϵͷ₺ V2ray womwey",
   "log": {
-    "access": "",
-    "error": "",
     "loglevel": "warning"
+  },
+  "dns": {
+    "hosts": {},
+    "servers": [
+      "https://94.140.14.14/dns-query"
+    ],
+    "tag": "dns"
   },
   "inbounds": [
     {
-      "tag": "socks",
       "port": 10808,
-      "listen": "127.0.0.1",
       "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
       "sniffing": {
-        "enabled": true,
         "destOverride": [
           "http",
           "tls"
         ],
-        "routeOnly": false
+        "enabled": true
       },
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "allowTransparent": false
-      }
+      "tag": "socks-in"
     },
     {
-      "tag": "http",
       "port": 10809,
-      "listen": "127.0.0.1",
       "protocol": "http",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
       "sniffing": {
-        "enabled": true,
         "destOverride": [
           "http",
           "tls"
         ],
-        "routeOnly": false
+        "enabled": true
       },
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "allowTransparent": false
-      }
+      "tag": "http-in"
     }
   ],
   "outbounds": [
     {
-      "tag": "proxy",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.17.197.29",
+            "address": "158.180.231.216",
             "port": 443,
             "users": [
               {
-                "id": "77a571fb-4fd2-4b37-8596-1b7d9728bb5c",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
                 "encryption": "none",
-                "flow": ""
+                "flow": "",
+                "id": "b7f1e0a7-0d09-4ff2-ba92-fde59269554e",
+                "level": 8,
+                "security": "auto"
               }
             ]
           }
@@ -70,81 +69,106 @@
       "streamSettings": {
         "network": "ws",
         "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "yong1.wonewoy658.workers.dev",
+          "fingerprint": "chrome",
           "alpn": [
             "h2",
             "http/1.1"
           ],
-          "fingerprint": "chrome",
-          "show": false
+          "serverName": "yong2.wonewoy658.workers.dev"
         },
         "wsSettings": {
-          "path": "/?ed=2560",
           "headers": {
-            "Host": "yong1.wonewoy658.workers.dev"
-          }
-        },
-        "sockopt": {
-          "dialerProxy": "fragment",
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpNoDelay": true
+            "Host": "yong2.wonewoy658.workers.dev"
+          },
+          "path": "/NiREvilRNY6Jq3YjmYnNqUM7vM8xtNQC7chtRtiyWv07CeSUMZJ?ed=2560"
         }
-      }
+      },
+      "tag": "proxy"
     },
     {
       "tag": "fragment",
       "protocol": "freedom",
       "settings": {
-        "domainStrategy": "AsIs",
         "fragment": {
-          "packets": "1-1",
-          "length": "1403",
+          "packets": "5",
+          "length": "35",
           "interval": "1"
         }
       },
       "streamSettings": {
         "sockopt": {
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
         }
       }
     },
     {
-      "tag": "direct",
-      "protocol": "freedom",
-      "settings": {}
+      "protocol": "dns",
+      "tag": "dns-out"
     },
     {
-      "tag": "block",
+      "protocol": "freedom",
+      "settings": {},
+      "tag": "direct"
+    },
+    {
       "protocol": "blackhole",
       "settings": {
         "response": {
           "type": "http"
         }
-      }
+      },
+      "tag": "block"
     }
   ],
+  "policy": {
+    "levels": {
+      "8": {
+        "connIdle": 300,
+        "downlinkOnly": 1,
+        "handshake": 4,
+        "uplinkOnly": 1
+      }
+    },
+    "system": {
+      "statsOutboundUplink": true,
+      "statsOutboundDownlink": true
+    }
+  },
   "routing": {
-    "domainStrategy": "AsIs",
+    "domainStrategy": "IPIfNonMatch",
     "rules": [
       {
-        "type": "field",
-        "inboundTag": [
-          "api"
+        "ip": [
+          "8.8.8.8"
         ],
-        "outboundTag": "api",
+        "outboundTag": "direct",
+        "port": "53",
+        "type": "field"
+      },
+      {
+        "inboundTag": [
+          "socks-in",
+          "http-in"
+        ],
+        "type": "field",
+        "port": "53",
+        "outboundTag": "dns-out",
         "enabled": true
       },
       {
-        "id": "5627785659655799759",
-        "type": "field",
-        "port": "0-65535",
         "outboundTag": "proxy",
-        "enabled": true
+        "type": "field",
+        "network": "tcp,udp"
       }
     ]
-  }
+  },
+  "stats": {}
 }
