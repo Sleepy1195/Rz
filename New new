@@ -1,5 +1,5 @@
 {
-  "remarks": "edgetunnel",
+  "remarks": "Fragmnet edge sqkb",
   "log": {
     "access": "",
     "error": "",
@@ -52,7 +52,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "2606:4700:20::ac43:48aa",
+            "address": "::ffff:6815:50c5",
             "port": 80,
             "users": [
               {
@@ -72,7 +72,7 @@
         "wsSettings": {
           "path": "/?ed=2560",
           "headers": {
-            "Host": "edGe3011.sQbkcnOw.wOrKerS.dev"
+            "Host": "sqbk.sqbkcnow.workers.dev"
           }
         },
         "sockopt": {
@@ -89,9 +89,9 @@
       "settings": {
         "domainStrategy": "AsIs",
         "fragment": {
-          "packets": "1-1",
-          "length": "1403",
-          "interval": "5"
+          "packets": "2",
+          "length": "2403",
+          "interval": "1"
         }
       },
       "streamSettings": {
