@@ -1,5 +1,5 @@
 {
-  "remarks": "fragment edge wonwey",
+  "remarks": "Fragment wonwey",
   "log": {
     "access": "",
     "error": "",
@@ -52,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "2a06:98c1:3121::3",
-            "port": 80,
+            "address": "www.visa.com.sg",
+            "port": 443,
             "users": [
               {
-                "id": "9bc21a7a-8c89-4a40-ab4c-b6486d642794",
+                "id": "b7f1e0a7-0d09-4ff2-ba92-fde59269554e",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -69,10 +69,21 @@
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "y-Ongg1.WoNewOy658.worKERs.DEv",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
+          "show": false
+        },
         "wsSettings": {
-          "path": "/amcfpm.sqbkcnow.workers.dev/?ed=2560",
+          "path": "/?ed=2560",
           "headers": {
-            "Host": "new-edge.wonewoy658.workers.dev"
+            "Host": "y-Ongg1.WoNewOy658.worKERs.DEv"
           }
         },
         "sockopt": {
@@ -91,7 +102,7 @@
         "fragment": {
           "packets": "1",
           "length": "1403",
-          "interval": "5"
+          "interval": "1"
         }
       },
       "streamSettings": {
