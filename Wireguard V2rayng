@@ -101,20 +101,20 @@
         "address": [
           "172.16.0.2/32"
         ],
-        "mtu": 1280,
+        "mtu": 1330,
         "peers": [
           {
-            "endpoint": "[2606:4700:d0::7d2b:1e3f:34ae:92cd]:1070",
+            "endpoint": "[2606:4700:d0::7d2b:1e3f:34ae:92cd]:878",
             "preSharedKey": "",
             "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
           }
         ],
         "reserved": [
-          7,
-          50,
-          94
+          67,
+          152,
+          146
         ],
-        "secretKey": "0KXxafjAAfrNi5TvC2S4ntOOYj+F7Y9NR/jnpt2GHHs="
+        "secretKey": "EDdGDRz2FskwBz3CmDeT/TCR1Pk1wlOCZuvYQteYMWY="
       },
       "tag": "proxy"
     },
