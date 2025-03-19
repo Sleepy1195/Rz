@@ -55,18 +55,18 @@
       "private_key": "2EOtDGJAmDD9R6G1+U2JGFjxMu+t+rj+Ii0jdoc2OWA=",
       "peers": [
         {
-          "address": "2606:4700:d1::d3f:23c9:46fc:c876",
-          "port": 4177,
+          "address": "2606:4700:00D0:0000:B7FA:AD44:5DF7:89CD",
+          "port": 8854,
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
           "allowed_ips": ["0.0.0.0/0", "::/0"],
           "persistent_keepalive_interval": 30,
-          "reserved": "WEAW"
+          "reserved": "NNNN"
         }
       ]
     },
     {
       "type": "wireguard",
-      "tag": " ðŸ‡³ðŸ‡±",
+      "tag": " 🇳🇱",
       "mtu": 1280,
       "address": "10.2.0.2/32",
       "private_key": "KH3S8nuY4vlfxzFeUECSkpTNzIpC5b4JNvgthqTE0Fw=",
@@ -83,7 +83,7 @@
     },
     {
       "type": "wireguard",
-      "tag": " ðŸ‡³ðŸ‡± 2",
+      "tag": " 🇳🇱 2",
       "mtu": 1280,
       "address": "10.2.0.2/32",
       "private_key": "MJfUWHaerGBHG5L8r76zrAqJ5YR6IoXtorIo5XnIYmE=",
@@ -100,13 +100,13 @@
     },
     {
       "type": "wireguard",
-      "tag": " ðŸ‡¯ðŸ‡µ",
+      "tag": " 🇯🇵",
       "mtu": 1280,
       "address": "10.2.0.2/32",
       "private_key": "UAYDwxfPiFLjPYZIPRcBHWJo4P9DF+ajaXeH0G4cbWs=",
       "peers": [
         {
-          "address": "2606:4700:00D0:0000:B7FA:AD44:5DF7:89CD",
+          "address": "45.14.71.7",
           "port": 51820,
           "public_key": "S4m34Hfczv02IBQV4tmTpd+mHkq3sDrabHv58J1Ikz0=",
           "allowed_ips": ["0.0.0.0/0", "::/0"],
@@ -117,7 +117,7 @@
     },
     {
       "type": "wireguard",
-      "tag": " ðŸ‡¯ðŸ‡µ 2",
+      "tag": " 🇯🇵 2",
       "mtu": 1280,
       "address": "10.2.0.2/32",
       "private_key": "ONCcY5lrAN53wn0bJUx8GIYAPUL4IC612CGCbzw3OFM=",
@@ -134,7 +134,7 @@
     },
     {
       "type": "wireguard",
-      "tag": " ðŸ‡ºðŸ‡²",
+      "tag": " 🇺🇲",
       "mtu": 1280,
       "address": "10.2.0.2/32",
       "private_key": "YMACPx0LqSsC5haZOJrIkhdOFyZ4W42WeDfVVJ8nkE4=",
@@ -151,7 +151,7 @@
     },
     {
       "type": "wireguard",
-      "tag": " ðŸ‡ºðŸ‡² 2",
+      "tag": " 🇺🇲 2",
       "mtu": 1280,
       "address": "10.2.0.2/32",
       "private_key": "6Ll6qNTIY60cW920psm9RehYScNGP5bdQG8bORXDeVY=",
@@ -194,13 +194,13 @@
     {
       "type": "selector",
       "tag": "proxy",
-      "outbounds": ["auto", "WARP+", " ðŸ‡³ðŸ‡±", " ðŸ‡¯ðŸ‡µ", " ðŸ‡ºðŸ‡²", " ðŸ‡³ðŸ‡± 2", " ðŸ‡¯ðŸ‡µ 2", " ðŸ‡ºðŸ‡² 2"],
+      "outbounds": ["auto", "WARP+", " 🇳🇱", " 🇯🇵", " 🇺🇲", " 🇳🇱 2", " 🇯🇵 2", " 🇺🇲 2"],
       "default": "auto"
     },
     {
       "type": "urltest",
       "tag": "auto",
-      "outbounds": ["WARP+", " ðŸ‡³ðŸ‡±", " ðŸ‡¯ðŸ‡µ", " ðŸ‡ºðŸ‡²", " ðŸ‡³ðŸ‡± 2", " ðŸ‡¯ðŸ‡µ 2", " ðŸ‡ºðŸ‡² 2"],
+      "outbounds": ["WARP+", " 🇳🇱", " 🇯🇵", " 🇺🇲", " 🇳🇱 2", " 🇯🇵 2", " 🇺🇲 2"],
       "url": "https://www.gstatic.com/generate_204",
       "tolerance": 50
     },
