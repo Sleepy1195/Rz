@@ -10,15 +10,15 @@
         "tag": "proxy-dns",
         "detour": "proxy",
         "domain_resolver": "local-dns",
-        "server": "185.228.168.9",
+        "server": "8.8.8.8",
         "server_port": 53
       },
       {
-        "type": "tcp",
+        "type": "udp",
         "tag": "local-dns",
         "detour": "direct",
         "domain_resolver": "",
-        "server": "8.8.4.4",
+        "server": "1.1.1.1",
         "server_port": 53
       },
       {
@@ -37,10 +37,7 @@
         "server": "direct-dns"
       },
       {
-        "source_ip_cidr": [
-          "172.19.0.1/30",
-          "fdfe:dcba:9876::1/126"
-        ],
+        "source_ip_cidr": ["172.19.0.1/30", "fdfe:dcba:9876::1/126"],
         "server": "proxy-dns"
       },
       {
@@ -48,83 +45,19 @@
         "server": "proxy-dns"
       }
     ],
-    "final": "proxy-dns",
+    "final": "local-dns",
     "strategy": "prefer_ipv4",
     "independent_cache": true
   },
-  "endpoints": [
-    {
-      "type": "wireguard",
-      "tag": "\u26aa\ufe0fTehran",
-      "name": "wg0",
-      "mtu": 1280,
-      "address": [
-        "172.16.0.2/32",
-        "2606:4700:110:8735:bb29:91bc:1c82:aa73/128"
-      ],
-      "private_key": "mOEhUR6P4zJkC8FJA7OA6PHy+OUAmNzaxh9Uk8L461Q=",
-      "peers": [
-        {
-          "address": "188.114.96.224",
-          "port": 8854,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ],
-          "persistent_keepalive_interval": 30,
-          "reserved": [
-            88,
-            64,
-            22
-          ]
-        }
-      ],
-      "detour": "direct",
-      "workers": 2
-    },
-    {
-      "type": "wireguard",
-      "tag": "\ud83d\udfe1Berlin",
-      "name": "wg0",
-      "mtu": 1280,
-      "address": [
-        "172.16.0.2/32",
-        "2606:4700:110:8735:bb29:91bc:1c82:aa73/128"
-      ],
-      "private_key": "+Kp+5zYDskVsW7PfXl3XSM/GWrkZi0qF7SvkflZnfVc=",
-      "peers": [
-        {
-          "address": "188.114.99.22",
-          "port": 4233,
-          "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": [
-            "0.0.0.0/0",
-            "::/0"
-          ],
-          "persistent_keepalive_interval": 30,
-          "reserved": [
-            32,
-            37,
-            225
-          ]
-        }
-      ],
-      "detour": "\u26aa\ufe0fTehran",
-      "workers": 2
-    }
-  ],
   "inbounds": [
     {
       "type": "tun",
       "tag": "tun-in",
       "mtu": 9000,
-      "address": [
-        "172.19.0.1/30",
-        "fdfe:dcba:9876::1/126"
-      ],
+      "address": ["172.19.0.1/30", "fdfe:dcba:9876::1/126"],
       "auto_route": true,
-      "endpoint_independent_nat": false,
+      "exclude_package": ["ir.mci.ecareapp", "com.myirancell"],
+      "endpoint_independent_nat": true,
       "stack": "mixed",
       "platform": {
         "http_proxy": {
@@ -145,21 +78,14 @@
     {
       "type": "selector",
       "tag": "proxy",
-      "outbounds": [
-        "auto",
-        "direct",
-        "\u26aa\ufe0fTehran",
-        "\ud83d\udfe1Berlin"
-      ],
-      "default": "\ud83d\udfe1Berlin"
+      "outbounds": ["auto", "direct", "shadowsocks"],
+      "default": "shadowsocks",
+      "interrupt_exist_connections": true
     },
     {
       "type": "urltest",
       "tag": "auto",
-      "outbounds": [
-        "\u26aa\ufe0fTehran",
-        "\ud83d\udfe1Berlin"
-      ],
+      "outbounds": ["shadowsocks"],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m0s",
       "tolerance": 50
@@ -168,6 +94,16 @@
       "type": "direct",
       "tag": "direct",
       "domain_strategy": "prefer_ipv4"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "shadowsocks",
+      "domain_strategy": "prefer_ipv4",
+      "server": "45.158.171.146",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "4a2rfixophdjffa8KVA4Aa",
+      "udp_over_tcp": true
     }
   ],
   "route": {
@@ -189,12 +125,7 @@
         "outbound": "proxy"
       },
       {
-        "rule_set": [
-          "geoip-private",
-          "geosite-private",
-          "geosite-ir",
-          "geoip-ir"
-        ],
+        "rule_set": ["geoip-private", "geosite-private", "geosite-ir", "geoip-ir"],
         "outbound": "direct"
       },
       {
@@ -247,6 +178,13 @@
   "experimental": {
     "cache_file": {
       "enabled": true
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "external_ui": "ui",
+      "external_ui_download_url": "https://mirror.ghproxy.com/https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+      "external_ui_download_detour": "direct",
+      "default_mode": "rule"
     }
   }
 }
