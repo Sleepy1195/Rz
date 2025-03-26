@@ -65,7 +65,7 @@
       "private_key": "GNgy5O2uvsqzRBt3286UCLyu/Xf3fV7xB98FlnVHqk0=",
       "peers": [
         {
-          "address": "engage.cloudflareclient.com",
+          "address": "2606:4700:d0::1a00:e902:e9cc:ee60",
           "port": 8854,
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
           "allowed_ips": [
