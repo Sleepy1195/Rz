@@ -74,9 +74,9 @@
           ],
           "persistent_keepalive_interval": 30,
           "reserved": [
-            56,
-            198,
-            20
+            88,
+            64,
+            22
           ]
         }
       ],
