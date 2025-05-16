@@ -85,7 +85,7 @@
             "port": 8443,
             "users": [
               {
-                "id": "f6ab2877-62b9-4035-8aca-7977c33f248a",
+                "id": "42c1f034-2d87-46bd-ba44-1832963cf43c",
                 "encryption": "none",
                 "level": 8
               }
