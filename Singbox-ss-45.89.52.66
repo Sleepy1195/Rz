@@ -106,10 +106,10 @@
     },
     {
       "domain_strategy": "prefer_ipv4",
-      "method": "chacha20-ietf-poly1305",
-      "password": "y1FBkyaEc9GvxeTjS1H0Vo",
-      "server": "176.124.207.105",
-      "server_port": 37322,
+      "method": "aes-256-cfb",
+      "password": "wfLC2y7rzZyCmuyt",
+      "server": "45.89.52.66",
+      "server_port": 9093,
       "tag": "shadowsocks",
       "type": "shadowsocks",
       "udp_over_tcp": true
