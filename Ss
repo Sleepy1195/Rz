@@ -1,1 +1,2 @@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.158.171.141:8080#Neda
+vless://efcf65c2-ff17-4997-a167-6133beb65e4f@154.211.8.48:443/?type=ws&encryption=none&flow=&host=amcfpm.sqbkcnow.workers.dev&path=%2Famcfpm.sqbkcnow.workers.dev%2F%3Fed%3D2560&security=tls&sni=amcfpm.sqbkcnow.workers.dev&fp=randomized#vless
