@@ -109,7 +109,7 @@
     },
     {
       "domain_resolver": "local-dns",
-      "server": "creativecommons.org",
+      "server": "whatismyipaddress.com",
       "server_port": 443,
       "tag": "vless-out",
       "tls": {
