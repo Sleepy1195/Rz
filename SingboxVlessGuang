@@ -109,7 +109,7 @@
     },
     {
       "domain_resolver": "local-dns",
-      "server": "whatismyipaddress.com",
+      "server": "asiagentingplay.biz",
       "server_port": 443,
       "tag": "vless-out",
       "tls": {
