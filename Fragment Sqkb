@@ -52,7 +52,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "160.79.105.79",
+            "address": "172.64.33.12",
             "port": 443,
             "users": [
               {
