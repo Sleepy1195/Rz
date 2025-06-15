@@ -1,2 +1,2 @@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.158.171.141:8080#Neda
-trojan://1234@epi-us-tro-jan.sqbkcnow.workers.dev:443?security=tls&sni=epi-us-tro-jan.sqbkcnow.workers.dev&alpn=h3&fp=randomized&type=ws&host=epi-us-tro-jan.sqbkcnow.workers.dev&path=%2F%3Fed%3D2560&allowInsecure=1&fragment=1,40-60,30-50,tlshello#epeius
+trojan://1234@104.16.103.196:443/?type=ws&host=epi-us-tro-jan.sqbkcnow.workers.dev&path=%2F%3Fed%3D2560&security=tls&sni=epi-us-tro-jan.sqbkcnow.workers.dev&alpn=h3&allowInsecure=1&fp=randomized#Neda%20janam
