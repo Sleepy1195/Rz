@@ -1,2 +1,1 @@
-trojan://1234@edfork.ckdmkud.workers.dev:443/?type=ws&host=epi-us-tro-jan.nxyblku.workers.dev&path=%2F%3Fed%3D2560&security=tls&sni=epi-us-tro-jan.nxyblku.workers.dev&alpn=h3&fp=randomized#nxyblku
-vless://33524aab-bfbe-4541-aa8f-3c3fc2ea775d@edfork.ckdmkud.workers.dev:2096/?type=ws&encryption=none&flow=&host=nxyblkuyong.nxyblku.workers.dev&path=%2F%3Fed%3D2560&security=tls&sni=nxyblkuyong.nxyblku.workers.dev#nxyblkuyong
+vless://33524aab-bfbe-4541-aa8f-3c3fc2ea775d@104.16.13.107:8443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=nxyblkuyong1.nxyblku.workers.dev&fp=random&type=ws&sni=nxyblkuyong1.nxyblku.workers.dev#expire+4+mordad
