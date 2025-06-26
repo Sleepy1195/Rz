@@ -1,5 +1,5 @@
 {
-  "remarks": "⨵ Frɑgϻϵͷ₺ V2ray index sqkb",
+  "remarks": "index.ckdmkud1.workers.dev",
   "log": {
     "loglevel": "warning"
   },
@@ -52,13 +52,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.174.76",
+            "address": "188.114.99.17",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "e012dac0-be98-4a0d-9923-5a3832b1e225",
+                "id": "2c2ba662-5296-4a5c-a836-7a7dedc5efb1",
                 "level": 8,
                 "security": "auto"
               }
@@ -81,11 +81,11 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "index.sqbkcnow.workers.dev"
+          "serverName": "index.ckdmkud1.workers.dev"
         },
         "wsSettings": {
           "headers": {
-            "Host": "index.sqbkcnow.workers.dev"
+            "Host": "index.ckdmkud1.workers.dev"
           },
           "path": "/ws/"
         }
@@ -97,9 +97,9 @@
       "protocol": "freedom",
       "settings": {
         "fragment": {
-          "packets": "1-1",
-          "length": "1403",
-          "interval": "1"
+          "packets": "tlshello",
+          "length": "10-20",
+          "interval": "10-20"
         }
       },
       "streamSettings": {
