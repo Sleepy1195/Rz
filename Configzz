@@ -1,1 +1,1 @@
-vless://d6df0987-c1dd-4a0a-84a3-d9486a2a9fcb@173.245.49.68:80?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=edg-e-wor.zfz.workers.dev&path=%2F&security=none&type=ws#edgetunnel
+vless://6f0c7707-d4aa-4fdd-b1cf-a97025baa846@162.251.82.10:443/?type=ws&encryption=none&flow=&host=380line.zfz.workers.dev&path=%2F&security=tls&sni=380line.zfz.workers.dev#NAT64VLESS%E4%BC%98%E9%80%89IP1
