@@ -1,1 +1,1 @@
-vless://e0a10a4c-3b3c-468f-b026-3544eeddc5f3@www.visa.com.sg:8443?flow=&fp=random&host=yo-ng.zfz.workers.dev&path=%2F%3Fed%3D2560&security=tls&sni=yo-ng.zfz.workers.dev&type=ws#Zahra%20Jonam
+vless://d6df0987-c1dd-4a0a-84a3-d9486a2a9fcb@173.245.49.68:80?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=edg-e-wor.zfz.workers.dev&path=%2F&security=none&type=ws#edgetunnel
