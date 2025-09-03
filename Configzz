@@ -1,1 +1,1 @@
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@ed12345.pages.dev:443?encryption=none&security=tls&sni=ed12345.pages.dev&fp=randomized&type=ws&host=ed12345.pages.dev&path=%2F%3Fed%3D2048#ed12345.pages.dev
+vless://866853eb-5293-4f09-bf00-e13eb237c655@amtunii.pages.dev:443?flow=&fp=randomized&host=amtunii.pages.dev&path=%2F%3Fed%3D2048&security=tls&sni=amtunii.pages.dev&type=ws#amtunii.pages.dev
