@@ -1,1 +1,1 @@
-trojan://1234@104.24.244.173:2087?allowInsecure=1&ed=2560&eh=Sec-WebSocket-Protocol&host=epi-us-tro-jan.sqkb1.workers.dev&path=%2F&sni=epi-us-tro-jan.sqkb1.workers.dev&type=ws#CF%E9%9A%8F%E6%9C%BA%E8%8A%82%E7%82%B906
+vless://e012dac0-be98-4a0d-9923-5a3832b1e225@172.67.239.208:443?path=%2Fws%2F&security=tls&encryption=none&insecure=1&host=index.sqkb1.workers.dev&type=ws&allowInsecure=1&sni=index.sqkb1.workers.dev#Titanium-V
