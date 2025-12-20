@@ -81,7 +81,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "creativecommons.org",
+            "address": "172.67.239.208",
             "port": 8443,
             "users": [
               {
@@ -101,7 +101,7 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "edgE-GUanG.rvr.wOrkeRS.DEV",
+            "Host": "indexnew.sqkb1.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/vpntopspeed/n14JjIhQygu9vHXLNl0ovmqQ?ed=2560"
@@ -113,7 +113,7 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "edgE-GUanG.rvr.wOrkeRS.DEV"
+          "serverName": "indexnew.sqkb1.workers.dev"
         }
       },
       "tag": "proxy"
