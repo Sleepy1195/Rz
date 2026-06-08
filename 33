@@ -1,7 +1,4 @@
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@py.pooyaserver.ir:443?security=tls&allowInsecure=0&encryption=none&type=ws&host=m2new016.noserveis16.workers.dev&path=/?ed%3D2560&sni=m2new016.noserveis16.workers.dev&fp=chrome&alpn=h2,h3,http/1.1#py016
-
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@js.pooyaserver.ir:443?security=tls&allowInsecure=0&encryption=none&type=ws&host=m2new016.noserveis16.workers.dev&path=/?ed%3D2560&sni=m2new016.noserveis16.workers.dev&fp=chrome&alpn=h2,h3,http/1.1#js016
-
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@ht.pooyaserver.ir:443?security=tls&allowInsecure=0&encryption=none&type=ws&host=m2new016.noserveis16.workers.dev&path=/?ed%3D2560&sni=m2new016.noserveis16.workers.dev&fp=chrome&alpn=h2,h3,http/1.1#ht016
-
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@cs.pooyaserver.ir:443?security=tls&allowInsecure=0&encryption=none&type=ws&host=m2new016.noserveis16.workers.dev&path=/?ed%3D2560&sni=m2new016.noserveis16.workers.dev&fp=chrome&alpn=h2,h3,http/1.1#cs016
+vless://62687ac3-34a8-471a-a592-beac9e7f5b88@py.pooyaserver.ir:443?encryption=none&host=bayat.rexewo1286.workers.Dev&path=%2F&security=tls&sni=bayat.rexewo1286.workers.Dev&type=ws#test(sara)%20(2356)
+vless://62687ac3-34a8-471a-a592-beac9e7f5b88@js.pooyaserver.ir:443?encryption=none&host=bayat.rexewo1286.workers.Dev&path=%2F&security=tls&sni=bayat.rexewo1286.workers.Dev&type=ws#test(sara)%20(2356)
+vless://62687ac3-34a8-471a-a592-beac9e7f5b88@cs.pooyaserver.ir:443?encryption=none&host=bayat.rexewo1286.workers.Dev&path=%2F&security=tls&sni=bayat.rexewo1286.workers.Dev&type=ws#test(sara)%20(2356)
+vless://62687ac3-34a8-471a-a592-beac9e7f5b88@ht.pooyaserver.ir:443?encryption=none&host=bayat.rexewo1286.workers.Dev&path=%2F&security=tls&sni=bayat.rexewo1286.workers.Dev&type=ws#test(sara)%20(2356)
