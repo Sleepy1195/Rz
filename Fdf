@@ -1,0 +1,6 @@
+vless://0b582043-fe0f-733d-74dd-f4a800000000@ir1.fm6550.ir:443?encryption=none&host=user-account-8.vpn100-c9f.workers.dev&path=%2Fsync&security=tls&sni=user-account-8.vpn100-c9f.workers.dev&type=ws#V-Core-443-Shima+20gig
+vless://0b582043-fe0f-733d-74dd-f4a800000001@ir2.fm6550.ir:443?encryption=none&host=user-account-8.vpn100-c9f.workers.dev&path=%2Fsync&security=tls&sni=user-account-8.vpn100-c9f.workers.dev&type=ws#V-Core-443-Shima+20gig%20(1)
+vless://0b582043-fe0f-733d-74dd-f4a800000002@ir3.fm6550.ir:443?encryption=none&host=user-account-8.vpn100-c9f.workers.dev&path=%2Fsync&security=tls&sni=user-account-8.vpn100-c9f.workers.dev&type=ws#V-Core-443-Shima+20gig%20(2)
+vless://0b582043-fe0f-733d-74dd-f4a800000003@tci1.fm6550.ir:443?encryption=none&host=user-account-8.vpn100-c9f.workers.dev&path=%2Fsync&security=tls&sni=user-account-8.vpn100-c9f.workers.dev&type=ws#V-Core-443-Shima+20gig%20(3)
+vless://0b582043-fe0f-733d-74dd-f4a800000004@tci2.fm6550.ir:443?encryption=none&host=user-account-8.vpn100-c9f.workers.dev&path=%2Fsync&security=tls&sni=user-account-8.vpn100-c9f.workers.dev&type=ws#V-Core-443-Shima+20gig%20(4)
+vless://0b582043-fe0f-733d-74dd-f4a800000005@tci3.fm6550.ir:443?encryption=none&host=user-account-8.vpn100-c9f.workers.dev&path=%2Fsync&security=tls&sni=user-account-8.vpn100-c9f.workers.dev&type=ws#V-Core-443-Shima+20gig%20(5)
