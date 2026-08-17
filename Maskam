@@ -182,7 +182,7 @@
       },
       "protocol": "vless",
       "settings": {
-        "address": "5.10.245.234",
+        "address": ""162.251.82.21",
         "encryption": "none",
         "flow": "",
         "id": "50414e45-4c5f-5a45-5553-bc6874fdbb70",
